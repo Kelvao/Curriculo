@@ -1,0 +1,151 @@
+\documentclass[11pt,a4paper]{article}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage[left=0.8in,top=0.6in,right=0.8in,bottom=0.6in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage[default]{sourcesanspro}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+%----------------------------------------------------------------------------------------
+%	COLORS & STYLES
+%----------------------------------------------------------------------------------------
+\definecolor{primarycolor}{HTML}{6e1423}
+\definecolor{secondarycolor}{HTML}{a4243b}
+\definecolor{accentcolor}{HTML}{c9a0a0}
+\definecolor{darktext}{HTML}{222222}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=primarycolor,
+    urlcolor=primarycolor
+}
+\urlstyle{same}
+
+\color{darktext}
+\linespread{0.9}
+\setlength{\parskip}{0.1em}
+\pagestyle{empty}
+\raggedright
+
+\titleformat{\section}{\Large\bfseries\color{primarycolor}}{}{0em}{}
+\titlespacing*{\section}{0pt}{0.7em}{0.15em}
+
+\newcommand{\companyname}[1]{\textcolor{secondarycolor}{\textbf{#1}}}
+\newcommand{\contactsep}{\quad\textcolor{accentcolor}{\textbullet}\quad}
+
+\setlist[itemize]{label=\textbullet, leftmargin=*, noitemsep, topsep=0pt, parsep=0pt}
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%--- HEADER ---
+{\Huge \textbf{\textcolor{primarycolor}{Kélvin Tesche Ievenes}}}\\[0.4em]
+\small
+Estiva Gerbi -- SP, Brasil
+\contactsep
+\href{tel:+5519981472461}{(19) 98147-2461}
+\contactsep
+\href{mailto:kelvintesche@gmail.com}{kelvintesche@gmail.com}\\[0.3em]
+\href{https://linkedin.com/in/kelvin-tesche-ievenes}{linkedin.com/in/kelvin-tesche-ievenes}
+\contactsep
+\href{https://github.com/Kelvao}{github.com/Kelvao}
+\normalsize
+
+%--- PERSONAL PROFILE ---
+\section*{Perfil Profissional}
+\textbf{Desenvolvedor Mobile} com \textbf{5 anos} de experiência em projetos dos segmentos de Desenvolvimento de Software, Aplicativos Infantis e Serviços Financeiros, com expertise em Aplicativos, Inovação, Tecnologia e Transformação Digital.
+
+\textbf{Experiência} no desenvolvimento de aplicativos Android utilizando Java, Kotlin, Android Jetpack, injeção de dependência com Koin, arquitetura MVVM e Clean Architecture, Firebase, Design Patterns, Coroutines e RxJava.
+
+\textbf{Vivência} em ambientes de desenvolvimento com metodologias ágeis.
+
+\textbf{Idiomas:} Inglês B1 e Espanhol A1.3.
+
+%--- EDUCATION ---
+\section*{Formação Acadêmica}
+
+\textbf{2025 -- Intensivo de Español para Estranjeros (Nível A1.3)} -- \textit{CEPE Idiomas, Córdoba/Argentina}
+
+\textbf{2018 -- Tecnólogo em Análise e Desenvolvimento de Sistemas} -- \textit{FATEC, Mogi Mirim/SP}
+
+\textbf{2014 -- Técnico em Informática} -- \textit{SENAC, Mogi Guaçu/SP}
+
+%--- EXPERIENCE ---
+\section*{Experiência}
+
+\textbf{11/2023 -- 03/2025 -- Desenvolvedor Mobile} -- \companyname{Zup Innovation}
+\begin{itemize}
+    \item Responsável pela experiência dos usuários no app Laranjinha Smart (Rede/Itaú).
+    \item Competências: Dagger, Koin, injeção de dependência, testes unitários, MVVM, GitHub, GitFlow, Coroutines, Android Jetpack, Android, Kotlin, Scrum, Android SDK, Java e Git.
+\end{itemize}
+
+\smallskip
+\textbf{10/2022 -- 12/2022 -- Analista Programador} -- \companyname{BRQ Digital Solutions}
+\begin{itemize}
+    \item Responsável pela experiência dos usuários na jornada de seguros do cliente Next.
+    \item Competências: Koin, injeção de dependência, Bitbucket, RxJava, Gradle, Confluence, Bamboo, MVVM, GitFlow, Android Jetpack, Android, Scrum, Android SDK, JIRA, Java e Git.
+\end{itemize}
+
+\smallskip
+\textbf{05/2021 -- 04/2022 -- Desenvolvedor Mobile} -- \companyname{Zup Innovation}
+\begin{itemize}
+    \item Responsável pela experiência dos usuários na jornada de cartões do cliente Itaú.
+    \item Competências: Koin, injeção de dependência, MVVM, GitLab, GitFlow, Coroutines, Android Jetpack, Android, Kotlin, Scrum, Android SDK, JIRA, Java e Git.
+\end{itemize}
+
+\smallskip
+\textbf{07/2020 -- 04/2021 -- Desenvolvedor Mobile} -- \companyname{SIDI}
+\begin{itemize}
+    \item Responsável por implementar soluções de software e corrigir bugs no projeto Samsung Kids.
+    \item Competências: Unity3D, CameraX, GitLab, JIRA, Confluence, MVVM, Android, Kotlin, Scrum, Android SDK, Java e Git.
+\end{itemize}
+
+\smallskip
+\textbf{12/2019 -- 07/2020 -- Desenvolvedor Mobile} -- \companyname{Liber Capital}
+\begin{itemize}
+    \item Responsável por implementar soluções de software e corrigir bugs no projeto Liber Capital.
+    \item Competências: Groovy, Koin, injeção de dependência, Gradle, Confluence, MVVM, GitLab, Android Jetpack, Android, Kotlin, Scrum, Android SDK e JIRA.
+\end{itemize}
+
+\smallskip
+\textbf{10/2019 -- 11/2019 -- Desenvolvedor Mobile} -- \companyname{MB Labs Aplicativos}
+\begin{itemize}
+    \item Responsável por desenvolver um aplicativo para máquina de cartões com Android embarcado e uma API de pagamentos.
+    \item Competências: Clean Architecture, Groovy, Koin, injeção de dependência, Gradle, GitLab, Coroutines, Android Jetpack, Android, Kotlin, Scrum e Android SDK.
+\end{itemize}
+
+\smallskip
+\textbf{09/2018 -- 10/2019 -- Desenvolvedor Mobile} -- \companyname{Poppin App}
+\begin{itemize}
+    \item Responsável por implementar soluções de software e corrigir bugs no projeto Poppin.
+    \item Competências: MVP, RxJava, GitLab, Coroutines, Kotlin, JIRA, Java e Git.
+\end{itemize}
+
+\smallskip
+\textbf{11/2017 -- 04/2018 -- Desenvolvedor Mobile} -- \companyname{XVision Soluções}
+\begin{itemize}
+    \item Responsável por implementar soluções de software para uma clínica veterinária.
+    \item Competências: MVP, GitLab, Android, JIRA, Java, Git e Firebase.
+\end{itemize}
+
+%--- CERTIFICATIONS ---
+\section*{Cursos e Certificações}
+
+\textbf{2022 -- Desenvolvimento em Plataformas Híbridas: Flutter} -- \textit{Descomplica Faculdade Digital}
+
+\textbf{2019 -- Curso completo de Kotlin para Android} -- \textit{Udemy}
+
+\textbf{2016 -- Android e Requisições HTTP} -- \textit{FATEC}
+
+\end{document}
