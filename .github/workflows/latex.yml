@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - name: Set up Git repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v4
@@ -22,6 +22,6 @@ jobs:
         run: mv main.pdf "Currículo - Kélvin Tesche Ievenes.pdf"
 
       - name: Create Release and Upload
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v4
         with:
           files: "Currículo - Kélvin Tesche Ievenes.pdf"
